@@ -216,6 +216,9 @@ footer {
     right:50px;
     top:52px;
   }
+  div#cust {
+	display:none;
+  }
 }
 
 @media print, screen and (max-width: 720px) {
@@ -243,6 +246,9 @@ footer {
   
   header ul {
     display:none;
+  }
+    div#cust {
+	display:block;
   }
 }
 
